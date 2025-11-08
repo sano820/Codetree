@@ -1,3 +1,3 @@
 for i in range(3):
     a = float(input())
-    print(round(a,3))
+    print(f"{a:.3f}")

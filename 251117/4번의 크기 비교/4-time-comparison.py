@@ -11,7 +11,7 @@ if A>C:
 else:
     print(0)
 
-if A>C:
+if A>D:
     print(1)
 else:
     print(0)

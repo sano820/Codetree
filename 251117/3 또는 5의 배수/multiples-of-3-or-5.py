@@ -1,10 +1,10 @@
 A = int(input())
 
 if A % 3 == 0:
-    print("Yes")
+    print("YES")
 else:
-    print("No")
+    print("NO")
 if A%5==0:
-    print("Yes")
+    print("YES")
 else:
-    print("No")
+    print("NO")

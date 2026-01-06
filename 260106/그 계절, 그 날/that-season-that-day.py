@@ -6,7 +6,7 @@ def is_youn(year):
 
 
 def is_valid_date(y, m, d):
-    days_in_month = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+    days_in_month = [0, 31, 30, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     if is_youn(y):
         days_in_month[2] = 29
 

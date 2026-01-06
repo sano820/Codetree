@@ -29,4 +29,4 @@ def get_season(m):
 if not is_valid_date(Y, M, D):
     print(-1)
 else:
-    print(get_season(D))
+    print(get_season(M))

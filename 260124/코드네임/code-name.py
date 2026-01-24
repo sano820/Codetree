@@ -19,4 +19,5 @@ class answer:
 sol = answer(codenames, scores)
 
 solution = [sol.info0, sol.info1, sol.info2, sol.info3, sol.info4]
-print(min(solution)[0], min(solution)[1])
+solution.sort(key=lambda x : x[1])
+print(*solution[0])
